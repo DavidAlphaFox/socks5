@@ -1,0 +1,19 @@
+
+{
+    "mode":{
+        "role": "server"
+    },
+    
+    "server":{
+        "utp_port": 9090
+    },
+
+    "utp_options":{
+        "brust": true,
+        "ignore_lost": false
+    },
+
+    "secret":{
+        "key":"abcdefghijk"
+    }
+}

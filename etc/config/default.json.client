@@ -1,0 +1,26 @@
+
+{
+    "mode":{
+        "role": "client"
+    },
+
+    "utp_options":{
+        "brust": true,
+        "ignore_lost": false
+    },
+
+    "utp_client":{
+        "port": 9090,
+        "server_host": ["192.168.0.1"],
+        "server_port": 9090,
+        "pool": 64
+    },
+
+    "secret":{
+        "key":"abcdefghijk"
+    },
+    
+    "id":{
+        "partition": 0
+    }
+}
